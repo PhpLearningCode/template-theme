@@ -1,0 +1,12 @@
+/*
+Theme Name: Template Theme
+Author: William Souza
+*/
+
+nav {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
