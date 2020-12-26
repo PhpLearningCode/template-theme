@@ -6,7 +6,14 @@ Author: William Souza
 nav {
     display: flex;
     flex-direction: row;
-    text-align: center;
-    justify-content: center;
+}
+
+nav ul li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+body {
+    background-color: '#777';
 }
 

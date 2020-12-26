@@ -4,5 +4,6 @@
         wp_enqueue_style('style');
     }
 
+    load_stylesheets();
     add_theme_support('menu');
 ?>
