@@ -9,6 +9,13 @@
         <link href="./style.css" rel="stylesheet">
 
         <?php wp_head(); ?>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Quem somos</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
     </head>
     <body>
         <h1><?php bloginfo('name'); ?></h1>
