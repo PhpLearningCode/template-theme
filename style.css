@@ -3,17 +3,12 @@ Theme Name: Template Theme
 Author: William Souza
 */
 
-nav {
-    display: flex;
-    flex-direction: row;
-}
-
-nav ul li {
-    display: inline-block;
-    text-decoration: none;
-}
-
 body {
-    background-color: '#777';
+    background-color: #e7e7e7;
 }
 
+header {
+    background: #fff;
+    width: 100%;
+    height: 100px;
+}
