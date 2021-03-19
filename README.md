@@ -4,6 +4,6 @@ This repository is meant to be a simple wordpress template theme, that can be us
 
 To use this template simple clone it with:
 
-> git clone 
+> git clone https://github.com/williamguilhermesouza/template-theme.git
 
 And copy it to the themes folder in wp-content folder in the wordpress installation.
