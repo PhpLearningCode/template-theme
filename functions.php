@@ -13,7 +13,7 @@ add_action('wp_enqueue_scripts', 'load_stylesheets' );
 
 function include_bootstrap() {
     wp_deregister_script('bootstrap-js');
-    wp_enqueue_script('bootstrap-js', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array('jquery'), 1, true);
+    wp_enqueue_script('bootstrap-js', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array('jquery', 'popper'), 1, true);
     add_action('wp_enqueue_scripts', 'bootstrap-js');
 }
 
