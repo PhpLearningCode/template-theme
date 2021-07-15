@@ -31,3 +31,8 @@ body {
     text-transform: uppercase;
     color: #0c0c0c;
 }
+
+#carouselIndicators {
+    width: 100%;
+    height: 200px;
+}
