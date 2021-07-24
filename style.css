@@ -1,34 +1,92 @@
 /*
-Theme Name: Template Theme
-Author: William Souza
-*/
+    Theme Name: Template Theme
+    Author: William Souza
 
+ VARIABLES */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+/* GENERAL */
+body {
+	font-family: 'Roboto',sans-serif;
+}
+
+body ul li {
+	list-style: none;
+}
+
+body a, body a:visited, body a:hover {
+	text-decoration: none;
+	color: #28203e;
+	font-weight: bold;
+}
+
+/* HEADER */
+header {
+	padding: 20px 0 10px 0;
+	display: flex;
+	border-bottom: 1px solid #737380;
+	text-align: center;
+	justify-content: center;
+	width: 100%;
+	z-index: 999;
+}
+
+header ul li {
+	display: inline;
+	margin-right: 10px;
+}
+
+header a, header a:visited {
+	color: #28203e;
+	transition: all .2s ease;
+	border-bottom: 2px solid transparent;
+}
+
+header a:hover {
+	text-decoration: none;
+	color: #000;
+	border-bottom: 2px solid #8257e5;
+}
 
 #nav_menu {
-    margin-top: 40px;
-    display: inline-block; 
-    width: 100%;
-    height: 100px;
-    border: 1px solid #000;
-    text-align: center;
-    text-justify: auto;
+	margin-top: 40px;
+	display: inline-block;
+	width: 100%;
+	height: 100px;
+	border: 1px solid #000;
+	text-align: center;
+	text-justify: auto;
 }
 
 #nav_menu ul {
-    margin-top: 35px;
+	margin-top: 35px;
 	list-style-type: none;
-    list-style-image: none;
+	list-style-image: none;
 }
 
 #nav_menu li {
-    display: inline;
-    margin-left: 20px;
-    font-size: 10pt;
+	display: inline;
+	margin-left: 20px;
+	font-size: 10pt;
 }
 
 #nav_menu li a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #0c0c0c;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #0c0c0c;
 }
 
+/* FOOTER */
+footer {
+	position: absolute;
+	bottom: 0px;
+	padding-left: 5px;
+	border-top: 1px solid #28203e;
+	width: 100%;
+}
+
+/* INDEX */
+.carousel-item img {
+	border-radius: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
