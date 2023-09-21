@@ -1,7 +1,7 @@
 <footer>
         <?php wp_footer(); ?>
-        <div class="copyright"></div>
-        <div class="social-media"></div>
+        <div class="copyright">Copyright</div>
+        <div class="social-media">Midia Social</div>
     </footer>
 </body>
 </html>

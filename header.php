@@ -9,8 +9,8 @@
 <body <?php body_class(); ?>>
     <header>
         <section class="top-bar">
-            <div class="logo"></div>
-            <div class="menu-area"></div>
-            <div class="search"></div>
+            <div class="logo">Logo</div>
+            <nav class="menu-area">Menu</nav>
+            <div class="search">Pesquisa</div>
         </section>
     </header>
