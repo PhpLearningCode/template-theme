@@ -9,8 +9,21 @@
 <body <?php body_class(); ?>>
     <header>
         <section class="top-bar">
-            <div class="logo">Logo</div>
-            <nav class="menu-area">Menu</nav>
-            <div class="search">Pesquisa</div>
+            <div class="container">
+                <div class="row">
+                    <div class="logo col-xl-3 col-sm-3 col-3">Logo</div>
+                    <nav class="menu-area col-xl-6 col-sm-7 col-6 text-center">
+                        <?php 
+                        wp_nav_menu(
+                            array(
+                                'theme_location' => 'main_menu',
+                            )
+                        ) 
+                        ?>
+                    </nav>
+                    <div class="search col-xl-3 col-sm-2 col-3 text-end">Pesquisa</div>
+                </div>
+            </div>
+            
         </section>
     </header>

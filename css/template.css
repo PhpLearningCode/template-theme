@@ -1,0 +1,18 @@
+.logo {
+    background: green;
+    height: 30px;
+}
+
+.menu-area {
+    background-color: red;
+    height: 30px;
+}
+
+.menu-area ul li {
+    display: inline;
+}
+
+.search {
+    background: blue;
+    height: 30px;
+}
