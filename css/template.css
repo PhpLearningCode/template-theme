@@ -8,7 +8,7 @@
     height: 30px;
 }
 
-.menu-area ul li {
+.menu-area ul li , .footer-menu ul li{
     display: inline;
 }
 
