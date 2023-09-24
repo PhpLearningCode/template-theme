@@ -1,4 +1,5 @@
     <?php get_header() ?>
+    <img class="img-fluid" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="header-image" />
     <div class="content-area">
         <main>
             <section class="carousel">
@@ -20,6 +21,7 @@
                             <!-- Using the retrieved data of Mainloop at the Wordpress Site -->
                                         <article>
                                             <h2><?php the_title( ); ?></h2>
+                                            <?php the_post_thumbnail( array(275, 275) ); ?>
                                             <p>Published in <?php echo get_the_date( ) ?> by <?php the_author_posts_link(); ?></p>
                                             <p>Categories: <?php the_category(' '); ?></p>
                                             <p><?php the_tags( 'Tags: ', ',' ); ?></p>
