@@ -17,18 +17,8 @@
                                 if (have_posts(  )){
                                     while( have_posts(  )){
                                         the_post(  );
-                                        ?>
-                            <!-- Using the retrieved data of Mainloop at the Wordpress Site -->
-                                        <article>
-                                            <h2><?php the_title( ); ?></h2>
-                                            <?php the_post_thumbnail( array(275, 275) ); ?>
-                                            <p>Published in <?php echo get_the_date( ) ?> by <?php the_author_posts_link(); ?></p>
-                                            <p>Categories: <?php the_category(' '); ?></p>
-                                            <p><?php the_tags( 'Tags: ', ',' ); ?></p>
-                                            <?php the_content( ); ?>
-                                        </article>
-                            <!-- Opening php tag again to finish the loop with an else, showing a p if there are no posts -->                    
-                                        <?php 
+                            // Using the retrieved data of Mainloop at the Wordpress Site while calling a template part
+                                        get_template_part( 'template-parts/content', get_post_format( ) ); 
                                     }
                                 }
                                 else {
