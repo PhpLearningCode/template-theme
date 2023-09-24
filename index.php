@@ -2,15 +2,9 @@
     <img class="img-fluid" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="header-image" />
     <div class="content-area">
         <main>
-            <section class="carousel">
-                <div class="container">
-                    <div class="row">Carousel</div>
-                </div>
-            </section>
             <section class="middle-area">
                 <div class="container">
                     <div class="row">
-                        <aside class="sidebar col-md-4">Sidebar</aside>
                         <div class="news col-md-8">
                             <!-- First part of Mainloop -->
                             <?php 
@@ -27,12 +21,8 @@
                             <?php } ?>
                             <!-- End of Mainloop -->
                         </div>
+                        <?php get_sidebar( 'blog' ); ?>
                     </div>
-                </div>
-            </section>
-            <section class="map">
-                <div class="container">
-                    <div class="row">Mapa</div>
                 </div>
             </section>
         </main>

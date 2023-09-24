@@ -28,4 +28,32 @@ function theme_config(){
 
 add_action( 'after_setup_theme', 'theme_config', 0);
 
+// working on sidebars
+add_action( 'widgets_init', 'theme_sidebars' );
+
+function theme_sidebars(){
+    register_sidebar(
+        array(
+            'name' => 'Home Page Sidebar',
+            'id' => 'sidebar-1',
+            'description' => 'Sidebar to be used on Home Page',
+            'before_widget' => '<div class="widget-wrapper">',
+            'after_widget' => '</div>',
+            'before_title' => '<h2 class="widget-title">',
+            'after_title' => '</h2>',
+        )
+    );
+
+    register_sidebar(
+        array(
+            'name' => 'Blog Sidebar',
+            'id' => 'sidebar-2',
+            'description' => 'Sidebar to be used on Blog Page',
+            'before_widget' => '<div class="widget-wrapper">',
+            'after_widget' => '</div>',
+            'before_title' => '<h2 class="widget-title">',
+            'after_title' => '</h2>',
+        )
+    );
+}
 ?>
