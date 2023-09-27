@@ -21,7 +21,7 @@
                         ) 
                         ?>
                     </nav>
-                    <div class="search col-xl-3 col-sm-2 col-3 text-end"><?php get_search_form( ); ?></div>
+                    <div class="search-box col-xl-3 col-sm-2 col-3 text-end"><?php get_search_form( ); ?></div>
                 </div>
             </div>
             
