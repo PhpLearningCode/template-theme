@@ -25,3 +25,12 @@
 .blog article {
     display: inline-block;
 }
+
+.wppsac-post-slider .wppsac-post-image-bg {
+    min-height: 700px;
+}
+
+.wppsac-post-content-left {
+    display: flex;
+    align-items: center;
+}

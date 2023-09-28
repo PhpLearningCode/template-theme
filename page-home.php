@@ -2,9 +2,7 @@
     <div class="content-area">
         <main>
             <section class="carousel">
-                <div class="container">
-                    <div class="row">Carousel</div>
-                </div>
+                <?php echo do_shortcode( '[recent_post_slider design="design-2" limit="5"]' ); ?>
             </section>
             <section class="middle-area">
                 <div class="container">
