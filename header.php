@@ -8,8 +8,8 @@
 <body <?php body_class(); ?>>
     <header>
         <section class="top-bar">
-            <div class="container">
-                <div class="row d-flex align-items-center">
+            <div class="container text-center">
+                <div class="row align-items-center justify-content-around">
                     <div class="logo col-xl-3 col-sm-3 col-3">
                         <?php the_custom_logo( ); ?>
                     </div>
