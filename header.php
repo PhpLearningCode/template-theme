@@ -8,12 +8,12 @@
 <body <?php body_class(); ?>>
     <header>
         <section class="top-bar">
-            <div class="container text-center">
-                <div class="row align-items-center justify-content-around">
-                    <div class="logo col-xl-3 col-sm-3 col-3">
+            <div class="container-fluid ">
+                <div class="row align-items-center">
+                    <div class="logo col-xl-4 col-sm-4 col-3">
                         <?php the_custom_logo( ); ?>
                     </div>
-                    <nav class="menu-area col-xl-6 col-sm-7 col-6 text-center">
+                    <nav class="menu-area col-xl-5 col-sm-6 col-6">
                         <?php 
                         wp_nav_menu(
                             array(
