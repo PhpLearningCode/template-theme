@@ -70,11 +70,6 @@
                     </div>
                 </div>
             </section>
-            <section class="map">
-                <div class="container">
-                    <div class="row">Mapa</div>
-                </div>
-            </section>
         </main>
     </div>
     <?php get_footer() ?>
