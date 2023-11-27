@@ -21,5 +21,5 @@ $twentytwentyone_unique_id = wp_unique_id( 'search-form-' );
 $twentytwentyone_aria_label = ! empty( $args['aria_label'] ) ? 'aria-label="' . esc_attr( $args['aria_label'] ) . '"' : '';
 ?>
 <form role="search form-inline my-2 my-lg-0" <?php echo $twentytwentyone_aria_label; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Escaped above. ?> method="get" class="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
-	<input type="search form-control mr-sm-2" placeholder="Digite aqui sua pesquisa" id="<?php echo esc_attr( $twentytwentyone_unique_id ); ?>" class="search-field" value="<?php echo get_search_query(); ?>" name="s" />
+	<input type="search form-control mr-sm-2" placeholder="Digite sua pesquisa..." id="<?php echo esc_attr( $twentytwentyone_unique_id ); ?>" class="search-field" value="<?php echo get_search_query(); ?>" name="s" />
 </form>

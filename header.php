@@ -9,14 +9,14 @@
     <header>
         <section class="top-bar">
             <div class="container-fluid">
-                    <nav class="navbar navbar-expand-lg navbar-light menu-area row text-align-center">
-                        <div class="logo navbar-brand text-center col-lg-3 col-12">
+                    <nav class="navbar navbar-expand-md navbar-dark bg-dark menu-area row text-align-center">
+                        <div class="logo navbar-brand text-center col-lg-3 col-md-3 col-12">
                             <?php the_custom_logo( ); ?>
                         </div>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse col-lg-6 col-8" id="navbarSupportedContent">
+                        <div class="collapse navbar-collapse col-lg-6 col-md-6 col-8" id="navbarSupportedContent">
                             <?php 
                             wp_nav_menu(
                                 array(
@@ -25,7 +25,7 @@
                             ) 
                             ?>
                         </div>
-                        <div class="search-box col-lg-3 col-12"><?php get_search_form( ); ?></div>
+                        <div class="search-box col-lg-3 col-md-3 col-12"><?php get_search_form( ); ?></div>
                     </nav>
                 </div>            
         </section>
